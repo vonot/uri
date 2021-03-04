@@ -1,0 +1,1 @@
+select pd.id, pd.name from products pd, categories c where pd.id_categories=c.id AND c.name LIKE 'super%'
